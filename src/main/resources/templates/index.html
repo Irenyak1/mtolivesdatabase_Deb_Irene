@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Spring Boot + JPA + Datatables</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="/js/datatable.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+</style>
+</head>
+
+<body>
+<h1>Members Table</h1>
+<div style="overflow-x:auto;">
+
+  <table id="membersTable" class="display">
+
+    <!-- Header Table -->
+    <thead>
+    <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Date of Birth</th>
+    <th>Marital Status</th>
+    <th>Church Family</th>
+    <th>Fellowship Group</th>
+    <th>Highest Level of Education</th>
+    <th>Profession</th>
+    <th>Occupation</th>
+    <th>Place of Work</th>
+    <th>Place of Residence</th>
+    <th>Phone Contact</th>
+    <th>Email Address</th>
+    <th>Date of Baptism</th>
+    <th>Place of Baptism</th>
+    <th>Name of Pastor who Baptised</th>
+    <th>Former Religion</th>
+    <th>Image url</th>
+    </tr>
+    </thead>
+    <!-- Footer Table -->
+    <tfoot>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Date of Birth</th>
+        <th>Marital Status</th>
+        <th>Church Family</th>
+        <th>Fellowship Group</th>
+        <th>Highest Level of Education</th>
+        <th>Profession</th>
+        <th>Occupation</th>
+        <th>Place of Work</th>
+        <th>Place of Residence</th>
+        <th>Phone Contact</th>
+        <th>Email Address</th>
+        <th>Date of Baptism</th>
+        <th>Place of Baptism</th>
+        <th>Name of Pastor who Baptised</th>
+        <th>Former Religion</th>
+        <th>Image url</th>
+    </tr>
+    </tfoot>
+  </table>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+com\example\demo\service\MemberServiceImpl.class
+com\example\demo\controller\MemberRestController.class
+com\example\demo\repository\MemberRepository.class
+com\example\demo\model\Member.class
+com\example\demo\DemoApplication.class
+com\example\demo\service\MemberService.class
+com\example\demo\controller\MemberController.class
